@@ -1,0 +1,6 @@
+name: NoVillagerTrading
+main: me.chaseoes.novillagertrading.NoVillagerTrading
+version: 1.0
+description: Prevent players from trading with villagers.
+author: chaseoes
+website: http://a1chase.com

@@ -1,9 +1,9 @@
 package me.chaseoes.novillagertrading;
 
-import net.minecraft.server.v1_6_R1.MerchantRecipeList;
-import net.minecraft.server.v1_6_R1.NBTTagCompound;
+import net.minecraft.server.v1_6_R2.MerchantRecipeList;
+import net.minecraft.server.v1_6_R2.NBTTagCompound;
 
-import org.bukkit.craftbukkit.v1_6_R1.entity.CraftVillager;
+import org.bukkit.craftbukkit.v1_6_R2.entity.CraftVillager;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Villager;
 import org.bukkit.event.EventHandler;
@@ -13,7 +13,6 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 public class NoVillagerTrading extends JavaPlugin implements Listener {
 
-    @Override
     public void onEnable() {
         getServer().getPluginManager().registerEvents(this, this);
     }

@@ -1,9 +1,9 @@
 package me.chaseoes.novillagertrading;
 
-import net.minecraft.server.v1_5_R3.MerchantRecipeList;
-import net.minecraft.server.v1_5_R3.NBTTagCompound;
+import net.minecraft.server.v1_6_R1.MerchantRecipeList;
+import net.minecraft.server.v1_6_R1.NBTTagCompound;
 
-import org.bukkit.craftbukkit.v1_5_R3.entity.CraftVillager;
+import org.bukkit.craftbukkit.v1_6_R1.entity.CraftVillager;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Villager;
 import org.bukkit.event.EventHandler;

@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>me.chaseoes</groupId>
     <artifactId>NoVillagerTrading</artifactId>
-    <version>3.1</version>
+    <version>3.2</version>
     <name>NoVillagerTrading</name>
     <url>https://github.com/chaseoes/NoVillagerTrading</url>
     
@@ -67,7 +67,7 @@
         <dependency>
             <groupId>org.bukkit</groupId>
             <artifactId>craftbukkit</artifactId>
-            <version>1.5.2-R0.1-SNAPSHOT</version><!--$NO-MVN-MAN-VER$-->
+            <version>1.6.1-R0.1-SNAPSHOT</version><!--$NO-MVN-MAN-VER$-->
         </dependency>
     </dependencies>
 </project>

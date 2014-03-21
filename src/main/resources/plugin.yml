@@ -1,6 +1,5 @@
-name: NoVillagerTrading
-main: me.chaseoes.novillagertrading.NoVillagerTrading
-version: 3.3
-description: Prevent players from trading with villagers.
+name: ${project.name}
+main: ${project.groupId}.${upload.dbo.slug}.${project.name}
+version: ${project.version}
+description: ${project.description}
 author: chaseoes
-website: http://a1chase.com

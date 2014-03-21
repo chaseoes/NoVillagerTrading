@@ -1,4 +1,4 @@
-package me.chaseoes.novillagertrading;
+package com.chaseoes.novillagertrading;
 
 import net.minecraft.server.v1_6_R2.MerchantRecipeList;
 import net.minecraft.server.v1_6_R2.NBTTagCompound;

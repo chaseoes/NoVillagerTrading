@@ -2,10 +2,10 @@ package com.chaseoes.novillagertrading;
 
 import java.io.IOException;
 
-import net.minecraft.server.v1_6_R2.MerchantRecipeList;
-import net.minecraft.server.v1_6_R2.NBTTagCompound;
+import net.minecraft.server.v1_7_R1.MerchantRecipeList;
+import net.minecraft.server.v1_7_R1.NBTTagCompound;
 
-import org.bukkit.craftbukkit.v1_6_R2.entity.CraftVillager;
+import org.bukkit.craftbukkit.v1_7_R1.entity.CraftVillager;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Villager;
 import org.bukkit.event.EventHandler;
@@ -33,7 +33,7 @@ public class NoVillagerTrading extends JavaPlugin implements Listener {
             Entity e = event.getRightClicked();
             if (e instanceof Villager) {
                 NBTTagCompound nbt = new NBTTagCompound();
-                nbt.setCompound("Offers", new MerchantRecipeList().a());
+                nbt.set("Offers", new MerchantRecipeList().a());
                 ((CraftVillager) (Villager) e).getHandle().a(nbt);
             }
         }

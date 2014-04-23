@@ -2,10 +2,10 @@ package com.chaseoes.novillagertrading;
 
 import java.io.IOException;
 
-import net.minecraft.server.v1_7_R2.MerchantRecipeList;
-import net.minecraft.server.v1_7_R2.NBTTagCompound;
+import net.minecraft.server.v1_7_R3.MerchantRecipeList;
+import net.minecraft.server.v1_7_R3.NBTTagCompound;
 
-import org.bukkit.craftbukkit.v1_7_R2.entity.CraftVillager;
+import org.bukkit.craftbukkit.v1_7_R3.entity.CraftVillager;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Villager;
 import org.bukkit.event.EventHandler;
